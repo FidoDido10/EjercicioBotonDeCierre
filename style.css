@@ -1,0 +1,30 @@
+.bigdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    width: 400px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    background-color: blueviolet;   
+}
+
+.botoncito{
+    display: flex;
+    float: right;
+    position: absolute;
+    margin-top: -200px;
+    margin-right: -200px;
+
+    width: 20px;
+    height: 20px;
+}
